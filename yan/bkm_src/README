@@ -1,0 +1,29 @@
+Bayesian k-means algorithm
+
+
+--Requirements
+This program runs on Matlab.
+
+
+--Hot to Use
+1. run Matlab.
+2. cd where you un-archived the source.
+3. run bkm_sm or bkm_bu.
+   bkm_sm and bkm_bu are respectively top-down and bottom-up Bayesian
+   k-means algorithm.
+   e.g.   
+   >> bkm_sm(DATA)
+   >> bkm_bu(DATA)
+   DATA is a DxN array where D is the dimension and N is the #datapoints.
+
+   You can also run them with an option 0 like
+   >> bkm_sm(DATA,0)
+   >> bkm_bu(DATA,0)
+   In this case, bkm_sm and bkm_bu do not use either KD-Trees or
+   Conga-Lines.
+
+
+--License
+This software is distributed under the BSD license.
+http://www.opensource.org/licenses/bsd-license.php
+Copyright (C) 2005  Kenichi Kurihara
